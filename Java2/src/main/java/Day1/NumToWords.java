@@ -1,10 +1,11 @@
 package Day1;
 
 public class NumToWords {
-    public static void main(String[] args){
-        int num = 5;
 
-        switch(num){
+    public static void main(String[] args) {
+        int number = 5;
+
+        switch (number) {
             case 1:
                 System.out.println("One");
                 break;
@@ -36,7 +37,7 @@ public class NumToWords {
                 System.out.println("Ten");
                 break;
             default:
-                System.out.println("Number not supported ");
+                System.out.println("Number not supported");
         }
     }
 }
